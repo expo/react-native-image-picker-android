@@ -6,7 +6,9 @@ Thanks marcshilling and everyone else that contributed for that one!
 
 # How do I use it?
 
-Follow these steps to integrate with your project:
+Follow these steps to integrate with your project. Each step links to a commit
+detailing what to do. The commits have comments explaining the purpose of each
+change.
 
 1. Add `ActivityResultListener.java`, `ImagePickerModule.java` and
    `ImagePickerPackage.java` to the Java code for your react-native application.
