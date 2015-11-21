@@ -4,11 +4,19 @@ It's an Android counterpart to the
 [`UIImagePicker` native module for iOS](https://github.com/marcshilling/react-native-image-picker).
 Thanks marcshilling and everyone else that contributed for that one!
 
-# How do I use it?
+# How can I try it?
 
-Follow these steps to integrate with your project. Each step links to a commit
-detailing what to do. The commits have comments explaining the purpose of each
-change.
+This project can be run out of the box to try out the image picker. Get
+*react-native-cli* if you don't have it already with `npm install -g
+react-native-cli`. Run `react-native run-android` from the root directory of
+this project with a device attached or an Android simulator running. Make sure
+you don't have other react packagers fighting for ports.
+
+# How can I use it in my own projects?
+
+Follow these steps to integrate with your own project. Each step links to a
+commit detailing what to do. The commits have comments explaining the purpose of
+each change.
 
 1. Add `ActivityResultListener.java`, `ImagePickerModule.java` and
    `ImagePickerPackage.java` to the Java code for your react-native application.
